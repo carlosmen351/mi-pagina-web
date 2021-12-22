@@ -1,0 +1,6 @@
+{
+  "presets": [
+    "@babel/preset-env", //Compila javaScript moderno para trabajar sin problemas
+    "@babel/preset-react" //trabajara con jsx y toda la libreria
+  ]
+}
