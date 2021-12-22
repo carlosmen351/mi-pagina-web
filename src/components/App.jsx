@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/global.scss';
 
 const App = () => {
   return (
-    <div>
+    <React.Fragment>
       <h1>Mi pagina web</h1>
-    </div>
+    </React.Fragment>
   );
 };
 
