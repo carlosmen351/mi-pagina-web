@@ -1,0 +1,15 @@
+{
+  "Hi" : "Hello.",
+  "name" : "My name is Carlos.",
+  "AboutMe1" : "I am a web developer with 3 years of experience, my specialty is JavaScript with its frameworks, I know how to use technologies like React.js and Next.",
+  "AboutMe2": " I enjoy making code in css and its pre-processors, as well as working on the interface design with tools like figma or addobe XD.",
+  "AboutMe3" : "I love to solve problems with code, always planning the problem before making the code, using problem solving patterns like, “design thinking”, and for the code the “object-oriented” paradigm.",
+  "AboutMe4" : "I consider myself as a technology enthusiast, self-taught with the conviction to ¡never stop learning!. I am currently a platzi student since 2019 and from platzi master (Elite program) since 2021.",
+  "AboutMe5" : "I have experience working on projects whit Agile methodologies SCRUM.",
+  "Cv" : "Dowload CV",
+  "Technologies" : "Technologies that I use",
+  "MoreAboutMe" : "Do you want to know more about my job?    Come and visit my social accounts.",
+  "Registred" : "© Carlos Meneses Desarrollador Web",
+  "Bye" : "Thanks for your time 💙.",
+  "From" : "Mexico City, Mexico."
+}

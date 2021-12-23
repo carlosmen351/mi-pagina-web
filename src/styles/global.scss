@@ -8,6 +8,36 @@ $colorPrincipalW: #FAF4E6;
 $colorSecundarioW: #1F1EFB;
 $colorTextoW: #050505;
 
+//!Mixins
+@mixin botonCel {
+  width: 50%;
+  height: 2rem;
+  border-radius: 20px;
+  border: none;
+  background-color: $colorSecundarioD;
+  color: $colorPrincipalW;
+  align-self: center;
+}
+@mixin botonTablet {
+  width: 30%;
+  height: 3rem;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  border: none;
+  background-color: $colorSecundarioD;
+  color: $colorPrincipalW;
+  align-self: center;
+}
+@mixin botonDesk {
+  width: 15%;
+  height: 3rem;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  border: none;
+  background-color: $colorSecundarioD;
+  color: $colorPrincipalW;
+  align-self: flex-start;
+}
 
 
 * {
@@ -17,7 +47,7 @@ $colorTextoW: #050505;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   background-color: #05001E;
   color: $colorTextoD;
@@ -26,3 +56,4 @@ body {
 
 @import '../components/Header/header.scss';
 @import '../components/imagesSection/imagesSection.scss';
+@import '../components/AboutMe/aboutMe.scss';
