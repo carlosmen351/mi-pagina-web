@@ -1,0 +1,57 @@
+.nav {
+  background-color: $colorSecundarioD;
+  border-bottom: 1px solid $colorPrincipalW;
+  &_toogle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0 1rem;
+    right: 0;
+    & svg {
+      width: 2rem;
+      fill: $colorTextoD;
+    }
+    & .close{
+      display: none;
+    }
+    & .menu, .close {
+      margin-top: 0.5rem;
+    }
+  }
+  &_checkbox {
+    display: none;
+  }
+  &_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 0;
+    & li {
+      display: none;
+      &:first-child {
+        margin-right: auto;
+        display: block;
+      }
+    }
+    &_logo {
+      height: 50px;
+      & img {
+        height: 100%;
+      }
+    }
+    &_icons {
+      width: 100%;
+      justify-content: space-evenly;
+      margin-bottom: 0.5rem ;
+    }
+  }
+  & #navCheckbox:checked ~ ul.nav_menu li {
+    display: flex;
+  }
+  & #navCheckbox:checked ~ label.nav_toogle .close {
+    display: block;
+  }
+  & #navCheckbox:checked ~ label.nav_toogle .menu {
+    display: none;
+  }
+}

@@ -7,6 +7,7 @@ module.exports = {
   output: {//*configuracion de salida y nombre del archivo
     path: path.resolve(__dirname, 'dist'),//se utiliza "dist" como convencion de distibucion
     filename: 'bundle.js',
+    publicPath: '/',
   },
   mode: "development", //*esta configuracion es necesaria para evitar warnings en consola
   resolve: {
@@ -36,6 +37,10 @@ module.exports = {
           "css-loader",
           "sass-loader"
         ],
+      },
+      {
+        test: /\.png|.svg/,
+        type: 'asset/resource'
       }
     ]
   },
@@ -52,5 +57,6 @@ module.exports = {
     allowedHosts: path.join(__dirname, 'dist'),
     compress: true,
     port: 3005,
+    open: true
   }
 }

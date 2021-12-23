@@ -1,6 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App.jsx'
+import {render} from 'react-dom';
+import App from './containers/App.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
-ReactDOM.render(<App />, document.getElementById('app'));
+render(
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App />}/>
+      <Route path='/portafolio' />
+    </Routes>
+  </BrowserRouter>,document.getElementById('app'));
