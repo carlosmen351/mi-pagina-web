@@ -55,3 +55,20 @@
     display: none;
   }
 }
+
+
+@media only screen and (min-width: 560px) {
+  .nav_toogle {
+    display: none;
+  }
+  .nav_menu {
+    flex-direction: row;
+    &_icons {
+      width: 25%;
+    }
+  }
+  .nav_menu li {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
