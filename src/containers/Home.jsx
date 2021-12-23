@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from '../components/Header/header';
+import ImagesSection from '../components/imagesSection/imagesSection'
 import '../styles/global.scss';
 
-const App = () => {
+const Home = () => {
   return (
     <React.Fragment>
-      <Header/>
+      <Header />
+      <ImagesSection/>
     </React.Fragment>
   );
 };
 
-export default App;
+export default Home;
