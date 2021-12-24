@@ -5,10 +5,9 @@
   align-content: center;
   text-align: center;
   margin: auto;
-  border-top: 2px solid $colorSecundarioD;
   padding-top: 1rem;
   & h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   & img {
     margin-bottom: 1rem;
@@ -16,14 +15,19 @@
 }
 @media only screen and (min-width: 560px) {
   .stack {
-    width: 85%;
+    width: 90%;
+    margin: auto;
     text-align: center;
     font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 1024px) {
   .stack {
-    margin-top: 4rem;
+    margin: 2rem auto 2rem;
     font-size: 2rem;
+    & img {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 }

@@ -6,7 +6,7 @@ import stack from '../../../assets/images/StackD.png'
 const Stack = () => {
   return (
     <div className='stack'>
-      <h1>{data.Technologies}</h1>
+      <h1>{data.Tecnologias}</h1>
       <img src={stack} alt="" />
     </div>
   )
