@@ -1,0 +1,29 @@
+.stack{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  border-top: 2px solid $colorSecundarioD;
+  padding-top: 1rem;
+  & h1 {
+    margin-bottom: 1rem;
+  }
+  & img {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 560px) {
+  .stack {
+    width: 85%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .stack {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+}
