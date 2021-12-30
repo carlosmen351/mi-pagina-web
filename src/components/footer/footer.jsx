@@ -26,8 +26,8 @@ const Footer = () => {
       </div>
       <div className='footer_info'>
         <p>{data.Adios}</p>
-        <p>{data.Registrada}</p>
         <p>{data.De}</p>
+        <p>{data.Registrada}</p>
       </div>
     </div>
   );

@@ -30,5 +30,13 @@
   "MasSobreMi2": "Pongamonos en contacto, visita mis redes sociales.",
   "Registrada" : "© Carlos Meneses Desarrollador Web",
   "Adios" : "Gracias por tu tiempo.  💙",
-  "De" : "Ciudad de Mexico, Mexico."
+  "De" : "Ciudad de Mexico, Mexico.",
+
+  "titulo" : "Mis proyectos",
+  "tituloProye" : "GetHired",
+  "Descripcion" : "Aplicacion web de alta demanda",
+  "Empresa" : "Platzi Master",
+  "Descripcion2" : "En este proyecto trabaje como frontend formando parte de un equipo encargado de elaborar el perfil de los usuarios, asi como el editor de codigo para el area de retos",
+  "StackProye" : "Stack: React.js, Next.js, StyledComponents, Sass",
+  "MoreAbout" : "Conocer mas del proyecto"
 }

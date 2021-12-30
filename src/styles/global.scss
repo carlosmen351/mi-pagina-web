@@ -29,7 +29,7 @@ $colorTextoW: #050505;
   align-self: center;
 }
 @mixin botonDesk {
-  width: 15%;
+  width: 20%;
   height: 3rem;
   font-size: 1.3rem;
   border-radius: 20px;
@@ -60,3 +60,4 @@ body {
 @import '../components/AboutMe/aboutMe.scss';
 @import '../components/stack/stack.scss';
 @import '../components/footer/footer.scss';
+@import '../components/tituloPorta/MyProject.scss';
