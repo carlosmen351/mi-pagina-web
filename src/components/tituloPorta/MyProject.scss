@@ -80,15 +80,23 @@
 
 @media only screen and (min-width: 1024px) {
   .project {
+    & h2 {
+      width: 80%;
+      margin: auto;
+    }
     &_p {
       text-align: start;
       padding: 1rem 0;
+      width: 80%;
+      margin: auto;
     }
     display: block;
     &_container {
       display: flex;
+      margin: auto;
+      width: 80%;
       &_img {
-        width: 50%;
+        width: 200%;
       }
       &_descripcion {
         padding-left: 1rem;

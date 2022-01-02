@@ -14,7 +14,7 @@ const MyProject = () => {
         </div>
         <div className='project_container_descripcion'>
           <p id='descripcion_empresa'>Empresa: {data.Empresa}</p>
-          <p id='descripcion_info'>{data.Descripcion2}</p>
+          <p id='descripcion_info'>{data.Descripcion11}</p>
           <p id='descripcion_stack'>{data.StackProye }</p>
           <a target='_blank' href="https://github.com/Platzi-Master-C8"><button>{data.MoreAbout }</button></a>
         </div>

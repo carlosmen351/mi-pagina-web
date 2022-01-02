@@ -1,5 +1,7 @@
 import React from 'react';
 import data from '../../../data.json'
+/* import PDF from '../../../assets/docs/CarlosCV.pdf'; */
+
 
 const AboutMe = () => {
   return (
