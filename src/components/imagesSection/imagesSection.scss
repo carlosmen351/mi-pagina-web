@@ -1,0 +1,51 @@
+.imagesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &_baner {
+    display: none;
+  }
+  &_foto {
+    margin-top: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  .imagesContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    &_baner {
+      display: flex;
+      position: relative;
+      left: -10%;
+      margin-top: 3%;
+      justify-content: center;
+      width: 100%;
+    }
+    &_foto {
+      width: 40%;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .imagesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    &_baner {
+      width: 70%;
+      margin-top: 3%;
+    }
+    &_foto {
+      position: absolute;
+      display: block;
+      width: 20%;
+      margin: 0;
+      left: 15%;
+      z-index: 1;
+    }
+  }
+}
