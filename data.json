@@ -1,15 +1,60 @@
 {
   "Hi" : "Hello.",
   "name" : "My name is Carlos.",
-  "AboutMe1" : "I am a web developer with 3 years of experience, my specialty is JavaScript with its frameworks, I know how to use technologies like React.js and Next.",
+  "AboutMe1" : "I am a web developer with 3 years of experience, my specialty is JavaScript with its frameworks, I know how to use technologies like React.js and Next.Js.",
   "AboutMe2": " I enjoy making code in css and its pre-processors, as well as working on the interface design with tools like figma or addobe XD.",
   "AboutMe3" : "I love to solve problems with code, always planning the problem before making the code, using problem solving patterns like, “design thinking”, and for the code the “object-oriented” paradigm.",
-  "AboutMe4" : "I consider myself as a technology enthusiast, self-taught with the conviction to ¡never stop learning!. I am currently a platzi student since 2019 and from platzi master (Elite program) since 2021.",
-  "AboutMe5" : "I have experience working on projects whit Agile methodologies SCRUM.",
+  "AboutMe4" : "I consider myself as a technology enthusiast, self-learning with the conviction to ¡never stop learning!.",
+  "AboutMe5" : "I am currently a platzi student since 2019 and from platzi master (Elite program) since 2021.",
+  "AboutMe6" : "I have experience working on projects whit Agile methodologies like SCRUM.",
   "Cv" : "Dowload CV",
   "Technologies" : "Technologies that I use",
-  "MoreAboutMe" : "Do you want to know more about my job?    Come and visit my social accounts.",
+  "MoreAboutMe" : "Do you want to know more about my job?",
+  "MoreAboutMe2": "Come and visit my social accounts.",
   "Registred" : "© Carlos Meneses Desarrollador Web",
-  "Bye" : "Thanks for your time 💙.",
-  "From" : "Mexico City, Mexico."
+  "Bye" : "Thanks for your time.  💙",
+  "From" : "Mexico City, Mexico.",
+
+
+  "Hola" : "Hola.",
+  "Nombre" : "Mi nombre es Carlos.",
+  "sobreMi" : "Soy un desarrollador web con 3 años de experiencia, mi especialidad es JavaScript con sus diferentes frameworks, se realizar proyectos en React.js y Next.Js.",
+  "sobreMi2": "Disfruto crear codigo en CSS y sus pre-procesadores, asi como trabajar en el diseño de interfaces con herramientas como figma o addobe XD.",
+  "sobreMi3" : "Me encanta resolver problemas con codigo, siempre planeando la solución antes de crear el codigo, usando patrones de solucion de problemas como el “design thinking”, y para el codigo aplicando el paradigma “object-oriented”.",
+  "sobreMi4" : "Me considero a mi misco como un entusiasta de la tecnologia, auto-didacta con la convicción de ¡Nunca parar de aprender!.",
+  "sobreMi5" : "Actualmente soy estudiante de Platzi desde el 2019 y siendo parte de Platzi Master (Programa Elite) desde el 2021.",
+  "sobreMi6" : "Tengo experiencia trabajando en proyectos con metodologias agiles como SCRUM.",
+  "CvEs" : "Descarga mi CV",
+  "Tecnologias" : "Tecnologias con las que trabajo",
+  "MasSobreMi" : "¿Quieres saber mas sobre mis trabajos?",
+  "MasSobreMi2": "Pongamonos en contacto, visita mis redes sociales.",
+  "Registrada" : "© Carlos Meneses Desarrollador Web",
+  "Adios" : "Gracias por tu tiempo.  💙",
+  "De" : "Ciudad de Mexico, Mexico.",
+
+  "titulo" : "Mis proyectos",
+  "tituloProye" : "GetHired",
+  "Descripcion" : "Aplicacion web de alta demanda",
+  "Empresa" : "Platzi Master",
+  "Descripcion11" : "En este proyecto trabaje como frontend formando parte de un equipo encargado de elaborar el perfil de los usuarios, asi como el editor de codigo para el area de retos",
+  "StackProye" : "Stack: React.js, Next.js, StyledComponents, Sass",
+  "MoreAbout" : "Conocer mas del proyecto",
+
+  "tituloProyecto1": "Briefcase with APIs",
+  "Empresa1": "Personal",
+  "Descripcion1": "En este proyecto consumo una API atraves de webpack para generar datos de usuarios al azar, cada que refresques la pagina nos devolvera nuevos datos",
+  "Stack1": "React.js, Webpack, Node.js, NPM",
+
+
+  "tituloProyecto2": "App movile 100% responsiva",
+  "Empresa2": "Batatabit",
+  "Descripcion2": "En este proyecto utilize la metodologia 'Mobile-First', creando una aplicacion 100% responsiva para cualquier dispositivo digital",
+  "Stack2": "JavaScript, SASS, HTML5",
+
+  "tituloProyecto3": "Landing Page con Boostrap",
+  "Empresa3": "Platzi",
+  "Descripcion3": "En este proyecto utilize todas las ventajas que nos ofrece el frameWork de css 'Boostrap', implementando interacciones en formularion, modales e incluso adaptando un 'Scroll Spy' para la navegación",
+  "Stack3": "CSS3, Boostrap, HTML5",
+
+  "BotonProyects": "Ver el despliegue"
 }

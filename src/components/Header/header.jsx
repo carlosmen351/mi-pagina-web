@@ -24,7 +24,9 @@ const Header = () => {
           </Link>
         </li>
         <li className='nav_menu_icons'>
-          <img className='iconosNav' src={porta} alt="Portafolio" />
+          <Link to='/portafolio'>
+            <img className='iconosNav' src={porta} alt="Portafolio" />
+          </Link>
           <img className='iconosNav' src={brillo} alt="Modo Claro" />
           <img className='iconosNav' src={idiom} alt="Idioma" />
         </li>

@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../components/Header/header';
 import ImagesSection from '../components/imagesSection/imagesSection'
 import AboutMe from '../components/AboutMe/aboutMe'
+import Stack from '../components/stack/stack';
+import Footer from '../components/footer/footer';
 import '../styles/global.scss';
 
 const Home = () => {
@@ -9,7 +11,9 @@ const Home = () => {
     <React.Fragment>
       <Header />
       <ImagesSection />
-      <AboutMe/>
+      <AboutMe />
+      <Stack />
+      <Footer/>
     </React.Fragment>
   );
 };

@@ -1,0 +1,76 @@
+.proyects {
+  width: 90%;
+  margin: auto;
+  &_img {
+    width: 100%;
+    display: flex;
+    background-color: $colorSecundarioD;
+    border-radius: 20px;
+    & img {
+      width: 90%;
+      margin: auto;
+      padding: 1rem 0;
+    }
+  }
+  &_info {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    & p {
+      font-size: 1rem;
+      padding-bottom: 0.5rem;
+    }
+    & a {
+      text-align: center;
+      & button {
+        @include botonCel;
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 560px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    gap: 2rem
+  }
+  .proyects {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    &_img {
+      width: 100%;
+      & img {
+        width: 90%;
+        height: 90%;
+      }
+    }
+    &_info {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1044px) {
+  .proyects_img {
+    width: 80%;
+  }
+  .proyects {
+    width: 80%;
+    margin-left: 0;
+  }
+  #proyects-rev {
+    align-self: flex-end;
+    margin-right: 0;
+  }
+  .proyects_info p {
+    font-size: 1.5rem;
+  }
+  .proyects_info a button {
+    font-size: 1.4rem;
+  }
+}

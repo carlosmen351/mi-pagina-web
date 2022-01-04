@@ -1,7 +1,7 @@
 //!colores para modo oscuro
 $colorPrincipalD: #05001E;
 $colorSecundarioD: #102189;
-$colorTextoD: #FAF4E6;
+$colorTextoD: #f8f8f9;
 
 //!colores para modo claro
 $colorPrincipalW: #FAF4E6;
@@ -29,7 +29,7 @@ $colorTextoW: #050505;
   align-self: center;
 }
 @mixin botonDesk {
-  width: 15%;
+  width: 20%;
   height: 3rem;
   font-size: 1.3rem;
   border-radius: 20px;
@@ -44,10 +44,11 @@ $colorTextoW: #050505;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 62.5%;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: lighter;
   background-color: #05001E;
   color: $colorTextoD;
@@ -57,3 +58,7 @@ body {
 @import '../components/Header/header.scss';
 @import '../components/imagesSection/imagesSection.scss';
 @import '../components/AboutMe/aboutMe.scss';
+@import '../components/stack/stack.scss';
+@import '../components/footer/footer.scss';
+@import '../components/tituloPorta/MyProject.scss';
+@import '../components/proyects/proyects.scss';

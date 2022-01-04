@@ -1,0 +1,139 @@
+.project {
+  width: 90%;
+  margin: 0 auto;
+  &_titulo {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom:  2px solid $colorSecundarioD;
+  }
+  &_container {
+    width: 100%;
+    & h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem 0 0.5rem;
+    }
+    &_p {
+      text-align: center;
+      font-size: 1rem;
+      padding: 0.5rem 0;
+    }
+    &_img {
+      width: 100&;
+      background-color: $colorSecundarioD;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      & img {
+        width: 90%;
+        padding: 1rem 0;
+      }
+    }
+    &_descripcion {
+      font-size: 1rem;
+      text-align: justify;
+      display: flex;
+      flex-direction: column;
+      & p {
+      padding: 0.5rem 0;
+      }
+      & a {
+        text-align: center;
+        & button {
+          @include botonCel;
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+}
+#descripcion_empresa {
+  text-align: center;
+}
+
+@media only screen and (min-width: 560px) {
+  .project {
+    & h2 {
+      font-size: 2rem;
+    }
+    & p {
+      font-size: 1.3rem;
+    }
+  }
+  .project_container {
+    width: 100%;
+    &_img {
+      width: 50%;
+      margin: 1rem auto;
+    }
+    &_descripcion a {
+      width: 100%;
+      & button {
+        width: 50%;
+        height: 3rem;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .project {
+    & h2 {
+      width: 80%;
+      margin: auto;
+    }
+    &_p {
+      text-align: start;
+      padding: 1rem 0;
+      width: 80%;
+      margin: auto;
+    }
+    display: block;
+    &_container {
+      display: flex;
+      margin: auto;
+      width: 80%;
+      &_img {
+        width: 200%;
+      }
+      &_descripcion {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        & a {
+          & button {
+            font-size: 1.5rem;
+            width: 70%;
+            height: 3rem;
+          }
+        }
+      }
+    }
+  }
+  #descripcion_empresa {
+    text-align: start;
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 2140px) {
+  .project {
+    font-size: 1.5rem;
+    & h1 {
+      font-size: 4rem;
+    }
+    & h2 {
+      font-size: 2.5rem;
+    }
+  }
+  .project_container_descripcion a {
+    width: 100%;
+    & button {
+      width: 40%;
+      height: 4rem;
+      font-size: 2rem;
+    }
+  }
+}

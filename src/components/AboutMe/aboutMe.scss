@@ -1,11 +1,13 @@
 .aboutMe {
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0 3rem;
   display: flex;
   flex-direction: column;
-  padding: 7%;
   text-align: justify;
+  border-bottom: 2px solid $colorSecundarioD;
   & h1 {
-    border-bottom: 1px solid $colorPrincipalW;
+    border-bottom: 1px solid $colorSecundarioD;
     text-align: start;
   }
   & p {
@@ -21,7 +23,8 @@
 
 @media only screen and (min-width: 560px) {
   .aboutMe {
-    padding:  3% 8% 8%;
+    width: 90%;
+    margin: auto;
     & p {
       font-size: 1.2rem;
       text-align: justify;
@@ -34,7 +37,8 @@
 }
 @media only screen and (min-width: 1024px) {
   .aboutMe {
-    padding:  3% 8% 0%;
+    width: 90%;
+    margin: auto;
     & h1 {
       font-size: 3rem;
     }
@@ -42,8 +46,9 @@
       font-size: 2.5rem;
     }
     & p {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       text-align: justify;
+      line-height: 1.8rem
     }
     & button {
       @include botonDesk;
