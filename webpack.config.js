@@ -6,8 +6,7 @@ module.exports = {
   entry: './src/index.js',//*Archivo principal donde va a ejecutarse la configuracion
   output: {//*configuracion de salida y nombre del archivo
     path: path.resolve(__dirname, 'dist'),//se utiliza "dist" como convencion de distibucion
-    filename: 'mi-pagina-web/bundle.js',
-    publicPath: '/mi-pagina-web',
+    filename: 'bundle.js',
   },
   mode: "development", //*esta configuracion es necesaria para evitar warnings en consola
   resolve: {
