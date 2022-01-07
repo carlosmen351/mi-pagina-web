@@ -15,9 +15,17 @@
     line-height: 1.5rem;
     color: $colorTextoD;
   }
-  & button {
-    margin-top: 1rem;
-    @include botonCel;
+  & a {
+    width: 50%;
+    height: 2rem;
+    margin: auto;
+    padding-top: 0.4rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    border-radius: 20px;
+    background-color: $colorSecundarioD;
+    color: $colorPrincipalW;
+    text-decoration: none;
   }
 }
 
@@ -29,9 +37,17 @@
       font-size: 1.2rem;
       text-align: justify;
     }
-    & button {
-      @include botonTablet;
-      margin-top: 2.5rem;
+    & a {
+      width: 40%;
+      height: 2rem;
+      margin: auto;
+      margin-top: 1.5rem;
+      text-align: center;
+      border-radius: 20px;
+      background-color: $colorSecundarioD;
+      color: $colorPrincipalW;
+      text-decoration: none;
+      font-size: 1.3rem;
     }
   }
 }
@@ -50,9 +66,18 @@
       text-align: justify;
       line-height: 1.8rem
     }
-    & button {
-      @include botonDesk;
+    & a {
+      width: 40%;
+      height: 3rem;
+      padding-top: 0.6rem;
+      margin: auto;
       margin-top: 1.5rem;
+      text-align: center;
+      border-radius: 20px;
+      background-color: $colorSecundarioD;
+      color: $colorPrincipalW;
+      text-decoration: none;
+      font-size: 1.5rem;
     }
   }
 }

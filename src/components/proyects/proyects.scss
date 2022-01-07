@@ -1,3 +1,4 @@
+
 .proyects {
   width: 90%;
   margin: auto;
@@ -29,7 +30,18 @@
     }
   }
 }
+@media only screen and (max-width: 560px) {
+  #proyects-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+}
+
 @media only screen and (min-width: 560px) {
+  #proyects-rev {
+    align-self: flex-end;
+    margin-right: 0;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -42,6 +54,7 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    margin-top: 4rem;
     &_img {
       width: 100%;
       & img {
@@ -55,22 +68,30 @@
   }
 }
 
-@media only screen and (min-width: 1044px) {
-  .proyects_img {
-    width: 80%;
-  }
+@media only screen and (min-width: 1024px) {
   .proyects {
-    width: 80%;
+    margin-top: 4rem;
+    width: 100%;
     margin-left: 0;
+    &_img {
+      width: 80%;
+    }
+    &_info {
+    font-size: 1.5rem;
+      & a button {
+        height: 3rem;
+        font-size: 1.5rem;
+      }
+      & p {
+        font-size: 1.6rem;
+      }
+    }
   }
   #proyects-rev {
     align-self: flex-end;
     margin-right: 0;
   }
-  .proyects_info p {
-    font-size: 1.5rem;
-  }
-  .proyects_info a button {
-    font-size: 1.4rem;
+  #p1 {
+    font-size: 2rem;
   }
 }

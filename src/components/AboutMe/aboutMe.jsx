@@ -1,6 +1,6 @@
 import React from 'react';
 import data from '../../../data.json'
-/* import PDF from '../../../assets/docs/CarlosCV.pdf'; */
+import PDF from '../../../assets/docs/CarlosEs.pdf';
 
 
 const AboutMe = () => {
@@ -14,7 +14,9 @@ const AboutMe = () => {
       <p>{data.sobreMi4}</p>
       <p>{data.sobreMi5}</p>
       <p>{data.sobreMi6}</p>
-      <button type='button'>{ data.CvEs }</button>
+      <a href={PDF} download>
+        {data.CvEs}
+      </a>
     </div>
   );
 }

@@ -39,7 +39,16 @@ module.exports = {
       },
       {
         test: /\.png|.svg/,
-        type: 'asset/resource'
+        type: 'asset/resource',
+        
+      },
+      {
+        test: /\.pdf$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          }
+        ]
       }
     ]
   },

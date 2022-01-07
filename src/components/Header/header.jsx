@@ -28,7 +28,9 @@ const Header = () => {
             <img className='iconosNav' src={porta} alt="Portafolio" />
           </Link>
           <img className='iconosNav' src={brillo} alt="Modo Claro" />
-          <img className='iconosNav' src={idiom} alt="Idioma" />
+          <Link to='/english'>
+            <img className='iconosNav' src={idiom} alt="Idioma" />
+          </Link>
         </li>
       </ul>
     </nav>
