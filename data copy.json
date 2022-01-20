@@ -1,8 +1,8 @@
 {
   "Hi" : "Hello.",
   "name" : "My name is Carlos.",
-  "AboutMe1" : "I am a web developer with 2 years of experience, my specialty is JavaScript with its frameworks, I know how to use technologies like React.js and Next.Js.",
-  "AboutMe2": " I enjoy making code in css and its pre-processors, as well as working on the interface design with tools like figma or addobe XD.",
+  "AboutMe1" : "I am a web developer with 2 years of experience, I specialize in JavaScript and its different frameworks and libraries, I am passionate about new technologies and in continuous learning, I have more than 5 years of experience using the English language as the main tool to perform throughout my working life",
+  "AboutMe2": " I enjoy the process of creating the design code for the interfaces, I have experience with CSS frameworks like Boosstrap or tailwind, I also have experience doing code in a purer way with pre-processors like SASS or LESS, and I rely on my experience in tools design like figma or Addobe XD.",
   "AboutMe3" : "I love to solve problems with code, always planning the problem before making the code, using problem solving patterns like, “design thinking”, and for the code the “object-oriented” paradigm.",
   "AboutMe4" : "I consider myself as a technology enthusiast, self-learning with the conviction to ¡never stop learning!.",
   "AboutMe5" : "I am currently a platzi student since 2019 and from platzi master (Elite program) since 2021.",
@@ -17,31 +17,31 @@
 
   "Title" : "My projects",
   "TitleProject" : "GetHired",
-  "Description" : "Web app of higth demand",
+  "Description" : "High demand web application",
   "Company" : "Platzi Master",
-  "MoreDescription" : "In this project I worked has a frontend developer, be part of a team formando parte de un equipo encargado de elaborar el perfil de los usuarios, así como el editor de código para el área de retos, utilizamos metodología SCRUM y reuniones semanales para organizar los sprints, y cumplir con las épicas del proyecto.",
+  "MoreDescription" : "In this project, I worked as a frontend developer, forming part of a team in charge of creating the user profile, as well as the code editor for the challenges area, we used the SCRUM methodology and weekly meetings to organize the sprints, and comply with the project epics.",
   "StackProye" : "Stack: React.js, Next.js, StyledComponents, Sass",
   "MoreAbout" : "Know more about the project",
 
   "TitleProject1": "Briefcase with APIs",
   "Company1": "Personal",
-  "Description1": "In this projectEn este proyecto se consume la API de GitHub a través de node. Js para generar datos de usuarios al azar, cada que refresques la página nos devolverá nuevos datos",
+  "Description1": "This project consumes the GitHub API through node. Js to generate random user data, every time you refresh the page it will return new data.",
   "Stack1": "React.js, Webpack, Node.js, NPM",
 
 
   "TitleProject2": "E-commerce with react",
   "Company2": "Shoppify",
-  "Description2": "In this projectEn este proyecto resalto el uso de los estados de react, asi como la implementacion de hoocks para la logica de la tienda virtual.",
+  "Description2": "In this project I highlight the use of react states, as well as the implementation of hooks for the logic of the virtual store.",
   "Stack2": "React.js, Webpack, Babel, Sass",
 
   "TitleProject3": "Landing Page con Boostrap",
   "Company3": "Platzi",
-  "Description3": "In this projectEn este proyecto, utilice todas las ventajas que nos ofrece el frameWork de css 'Boostrap', implementando interacciones en el formulario, modales e incluso adaptando un 'Scroll Spy' para la navegación.",
+  "Description3": "In this project, use all the advantages offered by the 'Boostrap' css frameworkWork, implementing interactions in the form, modals and even adapting a 'Scroll Spy' for navigation'.",
   "Stack3": "CSS, Boostrap, HTML5",
 
   "TitleProject4": "App movile 100% responsiva",
   "Company4": "Batatabit",
-  "Description4": "In this project En este proyecto, utilice la metodología 'Mobile-First', creando una aplicación 100% responsiva para cualquier dispositivo digital.",
+  "Description4": "In this project, use the 'Mobile-First' methodology, creating a 100% responsive application for any digital device.",
   "Stack4": "JavaScript, SASS, HTML5",
 
   "BotonProyects": "Deploy"

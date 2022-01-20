@@ -14,6 +14,7 @@
   }
 }
 
+
 @media only screen and (min-width: 560px) {
   .imagesContainer{
     display: flex;
@@ -48,7 +49,8 @@
     &_foto {
       position: absolute;
       display: block;
-      width: 20%;
+      width: 30rem;
+      height: 20rem;
       margin: 0;
       left: 15%;
       z-index: 1;
