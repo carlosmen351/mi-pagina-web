@@ -12,12 +12,19 @@
     margin: 1rem 0 1rem;
     display: flex;
     justify-content: space-evenly;
+    & a img {
+      transition: transform 0.5s;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
   }
   &_info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: $colorSecundarioD;
+    @include sombra;
     border-radius: 20px;
     padding: 0.5rem;
     & p {

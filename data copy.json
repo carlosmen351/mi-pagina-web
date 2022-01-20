@@ -1,0 +1,49 @@
+{
+  "Hi" : "Hello.",
+  "name" : "My name is Carlos.",
+  "AboutMe1" : "I am a web developer with 2 years of experience, my specialty is JavaScript with its frameworks, I know how to use technologies like React.js and Next.Js.",
+  "AboutMe2": " I enjoy making code in css and its pre-processors, as well as working on the interface design with tools like figma or addobe XD.",
+  "AboutMe3" : "I love to solve problems with code, always planning the problem before making the code, using problem solving patterns like, “design thinking”, and for the code the “object-oriented” paradigm.",
+  "AboutMe4" : "I consider myself as a technology enthusiast, self-learning with the conviction to ¡never stop learning!.",
+  "AboutMe5" : "I am currently a platzi student since 2019 and from platzi master (Elite program) since 2021.",
+  "AboutMe6" : "I have experience working on projects whit Agile methodologies like SCRUM.",
+  "Cv" : "Dowload CV",
+  "Technologies" : "Technologies that I use",
+  "MoreAboutMe" : "Do you want to know more about my job?",
+  "MoreAboutMe2": "Come and visit my social accounts.",
+  "Registred" : "© Carlos Meneses Web Developer",
+  "Bye" : "Thanks for your time.  💙",
+  "From" : "Mexico City, Mexico.",
+
+  "Title" : "My projects",
+  "TitleProject" : "GetHired",
+  "Description" : "Web app of higth demand",
+  "Company" : "Platzi Master",
+  "MoreDescription" : "In this project I worked has a frontend developer, be part of a team formando parte de un equipo encargado de elaborar el perfil de los usuarios, así como el editor de código para el área de retos, utilizamos metodología SCRUM y reuniones semanales para organizar los sprints, y cumplir con las épicas del proyecto.",
+  "StackProye" : "Stack: React.js, Next.js, StyledComponents, Sass",
+  "MoreAbout" : "Know more about the project",
+
+  "TitleProject1": "Briefcase with APIs",
+  "Company1": "Personal",
+  "Description1": "In this projectEn este proyecto se consume la API de GitHub a través de node. Js para generar datos de usuarios al azar, cada que refresques la página nos devolverá nuevos datos",
+  "Stack1": "React.js, Webpack, Node.js, NPM",
+
+
+  "TitleProject2": "E-commerce with react",
+  "Company2": "Shoppify",
+  "Description2": "In this projectEn este proyecto resalto el uso de los estados de react, asi como la implementacion de hoocks para la logica de la tienda virtual.",
+  "Stack2": "React.js, Webpack, Babel, Sass",
+
+  "TitleProject3": "Landing Page con Boostrap",
+  "Company3": "Platzi",
+  "Description3": "In this projectEn este proyecto, utilice todas las ventajas que nos ofrece el frameWork de css 'Boostrap', implementando interacciones en el formulario, modales e incluso adaptando un 'Scroll Spy' para la navegación.",
+  "Stack3": "CSS, Boostrap, HTML5",
+
+  "TitleProject4": "App movile 100% responsiva",
+  "Company4": "Batatabit",
+  "Description4": "In this project En este proyecto, utilice la metodología 'Mobile-First', creando una aplicación 100% responsiva para cualquier dispositivo digital.",
+  "Stack4": "JavaScript, SASS, HTML5",
+
+  "BotonProyects": "Deploy"
+}
+

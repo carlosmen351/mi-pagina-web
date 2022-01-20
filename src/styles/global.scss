@@ -38,6 +38,16 @@ $colorTextoW: #050505;
   color: $colorPrincipalW;
   align-self: flex-start;
 }
+@mixin sombra {
+  -webkit-box-shadow: 7px 7px 24px -2px rgba(247,247,247,1);
+    -moz-box-shadow: 7px 7px 24px -2px rgba(247,247,247,1);
+    box-shadow: 7px 7px 24px -2px $colorSecundarioW;
+}
+@mixin buttonHover {
+  color: black;
+  background-color: $colorPrincipalW;
+  box-shadow: 7px 7px 24px -2px $colorPrincipalW;
+}
 
 
 * {

@@ -38,9 +38,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.png|.svg/,
+        test: /\.png|.jpg|.svg/,
         type: 'asset/resource',
-        
       },
       {
         test: /\.pdf$/i,

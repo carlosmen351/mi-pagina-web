@@ -11,6 +11,8 @@
   }
   & img {
     margin-bottom: 1rem;
+    @include sombra;
+    border-radius: 20px;
   }
 }
 @media only screen and (min-width: 560px) {

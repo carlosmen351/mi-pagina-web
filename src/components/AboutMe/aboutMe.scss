@@ -26,6 +26,10 @@
     background-color: $colorSecundarioD;
     color: $colorPrincipalW;
     text-decoration: none;
+    @include sombra;
+    &:hover {
+      @include buttonHover;
+    }
   }
 }
 

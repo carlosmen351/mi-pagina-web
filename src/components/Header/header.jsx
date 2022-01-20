@@ -1,11 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/images/coverD.png'
-import porta from '../../../assets/icons/portafolioD.svg'
-import brillo from '../../../assets/icons/brightnessD.svg'
-import idiom from '../../../assets/icons/language.svg'
+import data2 from '../../../data copy.json';
+import data1 from '../../../data.json';
+import logo from '../../../assets/images/coverD.png';
+import porta from '../../../assets/icons/portafolioD.svg';
+import brillo from '../../../assets/icons/brightnessD.svg';
+import ingles from '../../../assets/icons/language.svg';
 
-const Header = () => {
+const Header = ({idiom, changes}) => {
+
+  const cambio = () => {
+    if (idiom === data1) {
+      changes(data2)
+    } else {
+      changes(data1)
+    }
+  }
+
   return (
     <nav className='nav'>
       <input type="checkbox" id='navCheckbox' className='nav_checkbox' />
@@ -20,17 +31,19 @@ const Header = () => {
       <ul className='nav_menu'>
         <li className='nav_menu_logo'>
           <Link to='/' >
-            <img id='logo' src={logo} alt="Logo de la pagina" />
+            {/* <img id='logo' src={logo} alt="Logo de la pagina" /> */}
+            <h1 id='logo'>JavaScript Developer</h1>
+           {/*  <p id='logo'>Carlos Meneses</p> */}
           </Link>
         </li>
         <li className='nav_menu_icons'>
           <Link to='/portafolio'>
             <img className='iconosNav' src={porta} alt="Portafolio" />
           </Link>
-          <img className='iconosNav' src={brillo} alt="Modo Claro" />
-          <Link to='/english'>
-            <img className='iconosNav' src={idiom} alt="Idioma" />
-          </Link>
+          {/* <img className='iconosNav' src={brillo} alt="Modo Claro" /> */}
+          <img
+            onClick={() => cambio()}
+            className='iconosNav' src={ingles} alt="Idioma" />
         </li>
       </ul>
     </nav>
